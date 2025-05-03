@@ -29,6 +29,6 @@ function playdate.update()
 
     -- Drawing Text and updating the screen
     playdate.graphics.clear()
-    playdate.graphics.drawText("Hello, Playdate!", x, y)
+    playdate.graphics.drawText("Hello, !" .. name, x, y)
     playdate.graphics.drawText("Updates: " .. updates, 40, 60)
 end
