@@ -3,7 +3,7 @@ local x = 40
 local y = 40
 local playerSpeed = 4
 local names = { "Playdate", "Christian", "Kyle", "Goth Gf" }
-local name = names{1}
+local name = names[1]
 
 
 function playdate.update()
