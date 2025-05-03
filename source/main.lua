@@ -26,6 +26,9 @@ function playdate.update()
     if playdate.buttonJustPressed(playdate.kButtonA) then
         name = names[math.random(#names)]
     end
+    if playdate.buttonJustPressed(playdate.kButtonB) then
+        updates = 0
+    end
 
     -- Drawing Text and updating the screen
     playdate.graphics.clear()
